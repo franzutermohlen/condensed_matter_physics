@@ -8,6 +8,10 @@ import time
 import sys
 import functions as jkg
 
+# This code uses the Python package Primme when diagonalization_method is set to 'lanczos'
+# This package can be found here: https://pypi.org/project/primme/
+# (Note: This code works correctly with Primme 3.0.3; other versions have not been tested)
+
 # ============================================= Inputs =============================================
 # Spin moment at each site
 spin = spin0
