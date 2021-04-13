@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PBS -l walltime=days0:hours0:minutes0:00
+
+#PBS -l nodes=nodes0:ppn=ppn0,mem=mem0GB
+
+#PBS -N job_name
+
+#PBS -j oe
+
+#PBS -m a
+
+#PBS -M email.number@osu.edu
+
+
+cd $PBS_O_WORKDIR
+
+python -u "python_filename" &> "output_filename"
+
+# Clean up
+rm "python_filename"
+
+
+#/usr/bin/myexecutable
