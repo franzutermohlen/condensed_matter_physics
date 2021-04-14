@@ -6,7 +6,6 @@ This is a repository of code for numerically simulating and analyzing the behavi
 
 
 
-
 Summary of directories:
 
     exact_diagonalization ... Python and Mathematica code to perform numerical simulations of the quantum mechanical behavior of magnetic systems
