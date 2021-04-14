@@ -6,7 +6,7 @@ Summary of directories:
 
     spin_wave_theory ........ Mathematica code to plot analytical results of the linear spin-wave theory calculations of magnetic systems
 
-    tight_binding_model ..... Mathematica code to plot analytical results of tight-binding model calculations of magnetic systems
+    tight_binding_model ..... Mathematica code to plot analytical results of tight-binding model calculations of electronic systems
 
 (Note: This is all code I have personally written from scratch, so there may be mistakes!)
 
